@@ -2,7 +2,7 @@
 <pnml>
     <net>
         <token id="Default" red="0" green="0" blue="0"/>
-        <place id="a">
+        <place id="A">
             <graphics>
                 <position x="385.0" y="418.0"/>
             </graphics>
@@ -22,7 +22,7 @@
                 <value>Default,1</value>
             </initialMarking>
         </place>
-        <place id="b">
+        <place id="B">
             <graphics>
                 <position x="529.0" y="416.0"/>
             </graphics>
@@ -42,7 +42,7 @@
                 <value>Default,5</value>
             </initialMarking>
         </place>
-        <place id="c">
+        <place id="C">
             <graphics>
                 <position x="599.0" y="413.0"/>
             </graphics>
@@ -69,7 +69,7 @@
             <name>
                 <value>P4</value>
                 <graphics>
-                    <offset x="-5.0" y="35.0"/>
+                    <offset x="44.0" y="-2.0"/>
                 </graphics>
             </name>
             <capacity>
@@ -89,7 +89,7 @@
             <name>
                 <value>P5</value>
                 <graphics>
-                    <offset x="-5.0" y="35.0"/>
+                    <offset x="24.0" y="44.0"/>
                 </graphics>
             </name>
             <capacity>
@@ -102,7 +102,7 @@
                 <value></value>
             </initialMarking>
         </place>
-        <place id="z">
+        <place id="Z">
             <graphics>
                 <position x="385.0" y="78.0"/>
             </graphics>
@@ -129,7 +129,7 @@
             <name>
                 <value>T0</value>
                 <graphics>
-                    <offset x="-5.0" y="35.0"/>
+                    <offset x="-5.0" y="18.0"/>
                 </graphics>
             </name>
             <infiniteServer>
@@ -155,7 +155,7 @@
             <name>
                 <value>T1</value>
                 <graphics>
-                    <offset x="-5.0" y="35.0"/>
+                    <offset x="10.0" y="-7.0"/>
                 </graphics>
             </name>
             <infiniteServer>
@@ -181,7 +181,7 @@
             <name>
                 <value>T2</value>
                 <graphics>
-                    <offset x="-5.0" y="35.0"/>
+                    <offset x="-7.0" y="16.0"/>
                 </graphics>
             </name>
             <infiniteServer>
@@ -208,7 +208,7 @@
                 <value>Default,1</value>
             </inscription>
         </arc>
-        <arc id="T2 TO a" source="T2" target="a">
+        <arc id="T2 TO a" source="T2" target="A">
             <arcpath id="" x="400.0" y="261.0" curvePoint="false"/>
             <arcpath id="" x="348.0" y="343.0" curvePoint="false"/>
             <arcpath id="" x="392.0" y="420.0" curvePoint="false"/>
@@ -225,7 +225,7 @@
                 <value>Default,2</value>
             </inscription>
         </arc>
-        <arc id="T2 TO z" source="T2" target="z">
+        <arc id="T2 TO z" source="T2" target="Z">
             <arcpath id="" x="400.0" y="231.0" curvePoint="false"/>
             <arcpath id="" x="400.0" y="108.0" curvePoint="false"/>
             <type value="normal"/>
@@ -233,7 +233,7 @@
                 <value>Default,1</value>
             </inscription>
         </arc>
-        <arc id="P2 TO T1" source="b" target="T1">
+        <arc id="P2 TO T1" source="B" target="T1">
             <arcpath id="" x="544.0" y="416.0" curvePoint="false"/>
             <arcpath id="" x="544.0" y="262.0" curvePoint="false"/>
             <type value="normal"/>
@@ -249,7 +249,7 @@
                 <value>Default,1</value>
             </inscription>
         </arc>
-        <arc id="P3 TO T0" source="c" target="T0">
+        <arc id="P3 TO T0" source="C" target="T0">
             <arcpath id="" x="614.0" y="413.0" curvePoint="false"/>
             <arcpath id="" x="614.0" y="385.0" curvePoint="false"/>
             <type value="normal"/>
@@ -258,14 +258,14 @@
             </inscription>
         </arc>
         <arc id="P5 TO T2" source="P5" target="T2">
-            <arcpath id="" x="449.0" y="246.0" curvePoint="false"/>
+            <arcpath id="" x="449.0" y="247.0" curvePoint="false"/>
             <arcpath id="" x="405.0" y="246.0" curvePoint="false"/>
             <type value="normal"/>
             <inscription>
                 <value>Default,1</value>
             </inscription>
         </arc>
-        <arc id="a TO T2" source="a" target="T2">
+        <arc id="a TO T2" source="A" target="T2">
             <arcpath id="" x="400.0" y="418.0" curvePoint="false"/>
             <arcpath id="" x="400.0" y="261.0" curvePoint="false"/>
             <type value="normal"/>
