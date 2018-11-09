@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<pnml>
+    <net>
+        <token id="Default" red="0" green="0" blue="0"/>
+        <place id="S crossing">
+            <graphics>
+                <position x="419.0" y="586.0"/>
+            </graphics>
+            <name>
+                <value>P12</value>
+                <graphics>
+                    <offset x="90.0" y="20.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="W waiting to cross">
+            <graphics>
+                <position x="178.0" y="405.0"/>
+            </graphics>
+            <name>
+                <value>P1</value>
+                <graphics>
+                    <offset x="61.0" y="53.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="P4">
+            <graphics>
+                <position x="278.0" y="-177.0"/>
+            </graphics>
+            <name>
+                <value>P4</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="P5">
+            <graphics>
+                <position x="854.0" y="1079.0"/>
+            </graphics>
+            <name>
+                <value>P5</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="N arriving">
+            <graphics>
+                <position x="421.0" y="14.0"/>
+            </graphics>
+            <name>
+                <value>P3</value>
+                <graphics>
+                    <offset x="90.0" y="21.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,3</value>
+            </initialMarking>
+        </place>
+        <place id="N crossing">
+            <graphics>
+                <position x="421.0" y="258.0"/>
+            </graphics>
+            <name>
+                <value>P2</value>
+                <graphics>
+                    <offset x="90.0" y="22.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="S crossed">
+            <graphics>
+                <position x="421.0" y="441.0"/>
+            </graphics>
+            <name>
+                <value>P10</value>
+                <graphics>
+                    <offset x="42.0" y="47.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="N crossed">
+            <graphics>
+                <position x="421.0" y="373.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="72.0" y="-2.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="S waiting to cross">
+            <graphics>
+                <position x="419.0" y="708.0"/>
+            </graphics>
+            <name>
+                <value>P11</value>
+                <graphics>
+                    <offset x="126.0" y="18.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="N waiting to cross">
+            <graphics>
+                <position x="421.0" y="137.0"/>
+            </graphics>
+            <name>
+                <value>P1</value>
+                <graphics>
+                    <offset x="126.0" y="15.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="E crossing">
+            <graphics>
+                <position x="555.0" y="407.0"/>
+            </graphics>
+            <name>
+                <value>P8</value>
+                <graphics>
+                    <offset x="40.0" y="51.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="E arriving">
+            <graphics>
+                <position x="763.0" y="407.0"/>
+            </graphics>
+            <name>
+                <value>P9</value>
+                <graphics>
+                    <offset x="44.0" y="49.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,3</value>
+            </initialMarking>
+        </place>
+        <place id="E waiting to cross">
+            <graphics>
+                <position x="657.0" y="407.0"/>
+            </graphics>
+            <name>
+                <value>P7</value>
+                <graphics>
+                    <offset x="61.0" y="53.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="W crossing">
+            <graphics>
+                <position x="283.0" y="405.0"/>
+            </graphics>
+            <name>
+                <value>P2</value>
+                <graphics>
+                    <offset x="40.0" y="51.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="W crossed">
+            <graphics>
+                <position x="390.0" y="405.0"/>
+            </graphics>
+            <name>
+                <value>P3</value>
+                <graphics>
+                    <offset x="17.0" y="43.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <place id="S arriving">
+            <graphics>
+                <position x="419.0" y="822.0"/>
+            </graphics>
+            <name>
+                <value>P13</value>
+                <graphics>
+                    <offset x="88.0" y="19.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,3</value>
+            </initialMarking>
+        </place>
+        <place id="W arriving">
+            <graphics>
+                <position x="70.0" y="405.0"/>
+            </graphics>
+            <name>
+                <value>P0</value>
+                <graphics>
+                    <offset x="44.0" y="49.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value>Default,3</value>
+            </initialMarking>
+        </place>
+        <place id="E crossed">
+            <graphics>
+                <position x="450.0" y="407.0"/>
+            </graphics>
+            <name>
+                <value>P6</value>
+                <graphics>
+                    <offset x="66.0" y="45.0"/>
+                </graphics>
+            </name>
+            <capacity>
+                <value>0</value>
+            </capacity>
+            <initialMarking>
+                <graphics>
+                    <offset x="0.0" y="0.0"/>
+                </graphics>
+                <value></value>
+            </initialMarking>
+        </place>
+        <transition id="T4">
+            <graphics>
+                <position x="431.0" y="319.0"/>
+            </graphics>
+            <name>
+                <value>T4</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="T5">
+            <graphics>
+                <position x="431.0" y="78.0"/>
+            </graphics>
+            <name>
+                <value>T5</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="T6">
+            <graphics>
+                <position x="615.0" y="407.0"/>
+            </graphics>
+            <name>
+                <value>T6</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="T7">
+            <graphics>
+                <position x="512.0" y="407.0"/>
+            </graphics>
+            <name>
+                <value>T7</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="T8">
+            <graphics>
+                <position x="722.0" y="407.0"/>
+            </graphics>
+            <name>
+                <value>T8</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="T9">
+            <graphics>
+                <position x="429.0" y="647.0"/>
+            </graphics>
+            <name>
+                <value>T9</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="T10">
+            <graphics>
+                <position x="429.0" y="528.0"/>
+            </graphics>
+            <name>
+                <value>T10</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="T12">
+            <graphics>
+                <position x="812.0" y="154.0"/>
+            </graphics>
+            <name>
+                <value>T12</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="T11">
+            <graphics>
+                <position x="429.0" y="764.0"/>
+            </graphics>
+            <name>
+                <value>T11</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="T0">
+            <graphics>
+                <position x="136.0" y="405.0"/>
+            </graphics>
+            <name>
+                <value>T0</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="T1">
+            <graphics>
+                <position x="241.0" y="405.0"/>
+            </graphics>
+            <name>
+                <value>T1</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="T2">
+            <graphics>
+                <position x="344.0" y="405.0"/>
+            </graphics>
+            <name>
+                <value>T2</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <transition id="T3">
+            <graphics>
+                <position x="431.0" y="202.0"/>
+            </graphics>
+            <name>
+                <value>T3</value>
+                <graphics>
+                    <offset x="-5.0" y="35.0"/>
+                </graphics>
+            </name>
+            <infiniteServer>
+                <value>false</value>
+            </infiniteServer>
+            <timed>
+                <value>false</value>
+            </timed>
+            <priority>
+                <value>1</value>
+            </priority>
+            <orientation>
+                <value>0</value>
+            </orientation>
+            <rate>
+                <value>1</value>
+            </rate>
+        </transition>
+        <arc id="T4 TO P0" source="T4" target="N crossed">
+            <arcpath id="" x="436.0" y="349.0" curvePoint="false"/>
+            <arcpath id="" x="436.0" y="373.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T11 TO P11" source="T11" target="S waiting to cross">
+            <arcpath id="" x="434.0" y="764.0" curvePoint="false"/>
+            <arcpath id="" x="434.0" y="738.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T10 TO P10" source="T10" target="S crossed">
+            <arcpath id="" x="434.0" y="528.0" curvePoint="false"/>
+            <arcpath id="" x="436.0" y="471.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T12 TO S crossing" source="T12" target="S crossing">
+            <arcpath id="" x="817.0" y="184.0" curvePoint="false"/>
+            <arcpath id="" x="444.0" y="590.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T5 TO P1" source="T5" target="N waiting to cross">
+            <arcpath id="" x="436.0" y="108.0" curvePoint="false"/>
+            <arcpath id="" x="436.0" y="137.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T8 TO P7" source="T8" target="E waiting to cross">
+            <arcpath id="" x="722.0" y="422.0" curvePoint="false"/>
+            <arcpath id="" x="687.0" y="422.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T12 TO N crossing" source="T12" target="N crossing">
+            <arcpath id="" x="812.0" y="169.0" curvePoint="false"/>
+            <arcpath id="" x="450.0" y="269.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T0 TO P1" source="T0" target="W waiting to cross">
+            <arcpath id="" x="146.0" y="420.0" curvePoint="false"/>
+            <arcpath id="" x="178.0" y="420.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T7 TO P6" source="T7" target="E crossed">
+            <arcpath id="" x="512.0" y="422.0" curvePoint="false"/>
+            <arcpath id="" x="480.0" y="422.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T1 TO P2" source="T1" target="W crossing">
+            <arcpath id="" x="251.0" y="420.0" curvePoint="false"/>
+            <arcpath id="" x="283.0" y="420.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T3 TO P2" source="T3" target="N crossing">
+            <arcpath id="" x="436.0" y="232.0" curvePoint="false"/>
+            <arcpath id="" x="436.0" y="258.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T9 TO P12" source="T9" target="S crossing">
+            <arcpath id="" x="434.0" y="647.0" curvePoint="false"/>
+            <arcpath id="" x="434.0" y="616.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T6 TO P8" source="T6" target="E crossing">
+            <arcpath id="" x="615.0" y="422.0" curvePoint="false"/>
+            <arcpath id="" x="585.0" y="422.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="T2 TO P3" source="T2" target="W crossed">
+            <arcpath id="" x="354.0" y="420.0" curvePoint="false"/>
+            <arcpath id="" x="390.0" y="420.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="S waiting to cross TO T12" source="S waiting to cross" target="T12">
+            <arcpath id="" x="443.0" y="711.0" curvePoint="false"/>
+            <arcpath id="" x="817.0" y="184.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P0 TO T0" source="W arriving" target="T0">
+            <arcpath id="" x="100.0" y="419.0" curvePoint="false"/>
+            <arcpath id="" x="136.0" y="420.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="W waiting to cross TO T12" source="W waiting to cross" target="T12">
+            <arcpath id="" x="207.0" y="414.0" curvePoint="false"/>
+            <arcpath id="" x="812.0" y="169.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,0</value>
+            </inscription>
+        </arc>
+        <arc id="P13 TO T11" source="S arriving" target="T11">
+            <arcpath id="" x="434.0" y="822.0" curvePoint="false"/>
+            <arcpath id="" x="434.0" y="794.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P2 TO T2" source="W crossing" target="T2">
+            <arcpath id="" x="313.0" y="419.0" curvePoint="false"/>
+            <arcpath id="" x="344.0" y="420.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="E crossing TO T3" source="E crossing" target="T3">
+            <arcpath id="" x="562.0" y="409.0" curvePoint="false"/>
+            <arcpath id="" x="436.0" y="232.0" curvePoint="false"/>
+            <type value="inhibitor"/>
+            <inscription>
+                <value></value>
+            </inscription>
+        </arc>
+        <arc id="P2 TO T4" source="N crossing" target="T4">
+            <arcpath id="" x="436.0" y="288.0" curvePoint="false"/>
+            <arcpath id="" x="436.0" y="319.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P12 TO T10" source="S crossing" target="T10">
+            <arcpath id="" x="434.0" y="586.0" curvePoint="false"/>
+            <arcpath id="" x="434.0" y="558.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P11 TO T9" source="S waiting to cross" target="T9">
+            <arcpath id="" x="434.0" y="708.0" curvePoint="false"/>
+            <arcpath id="" x="434.0" y="677.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="E crossing TO T9" source="E crossing" target="T9">
+            <arcpath id="" x="563.0" y="435.0" curvePoint="false"/>
+            <arcpath id="" x="434.0" y="647.0" curvePoint="false"/>
+            <type value="inhibitor"/>
+            <inscription>
+                <value></value>
+            </inscription>
+        </arc>
+        <arc id="E waiting to cross TO T9" source="E waiting to cross" target="T9">
+            <arcpath id="" x="661.0" y="433.0" curvePoint="false"/>
+            <arcpath id="" x="434.0" y="647.0" curvePoint="false"/>
+            <type value="inhibitor"/>
+            <inscription>
+                <value></value>
+            </inscription>
+        </arc>
+        <arc id="W waiting to cross TO T3" source="W waiting to cross" target="T3">
+            <arcpath id="" x="205.0" y="410.0" curvePoint="false"/>
+            <arcpath id="" x="431.0" y="217.0" curvePoint="false"/>
+            <type value="inhibitor"/>
+            <inscription>
+                <value></value>
+            </inscription>
+        </arc>
+        <arc id="S waiting to cross TO T1" source="S waiting to cross" target="T1">
+            <arcpath id="" x="426.0" y="710.0" curvePoint="false"/>
+            <arcpath id="" x="246.0" y="435.0" curvePoint="false"/>
+            <type value="inhibitor"/>
+            <inscription>
+                <value></value>
+            </inscription>
+        </arc>
+        <arc id="P7 TO T6" source="E waiting to cross" target="T6">
+            <arcpath id="" x="657.0" y="422.0" curvePoint="false"/>
+            <arcpath id="" x="625.0" y="422.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="N crossing TO T12" source="N crossing" target="T12">
+            <arcpath id="" x="450.0" y="269.0" curvePoint="false"/>
+            <arcpath id="" x="813.0" y="169.0" curvePoint="false"/>
+            <type value="inhibitor"/>
+            <inscription>
+                <value></value>
+            </inscription>
+        </arc>
+        <arc id="N crossing TO T1" source="N crossing" target="T1">
+            <arcpath id="" x="424.0" y="282.0" curvePoint="false"/>
+            <arcpath id="" x="251.0" y="420.0" curvePoint="false"/>
+            <type value="inhibitor"/>
+            <inscription>
+                <value></value>
+            </inscription>
+        </arc>
+        <arc id="W crossing TO T9" source="W crossing" target="T9">
+            <arcpath id="" x="305.0" y="433.0" curvePoint="false"/>
+            <arcpath id="" x="434.0" y="647.0" curvePoint="false"/>
+            <type value="inhibitor"/>
+            <inscription>
+                <value></value>
+            </inscription>
+        </arc>
+        <arc id="E waiting to cross TO T12" source="E waiting to cross" target="T12">
+            <arcpath id="" x="680.0" y="409.0" curvePoint="false"/>
+            <arcpath id="" x="817.0" y="184.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,0</value>
+            </inscription>
+        </arc>
+        <arc id="P8 TO T7" source="E crossing" target="T7">
+            <arcpath id="" x="555.0" y="422.0" curvePoint="false"/>
+            <arcpath id="" x="522.0" y="422.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="N crossing TO T6" source="N crossing" target="T6">
+            <arcpath id="" x="448.0" y="282.0" curvePoint="false"/>
+            <arcpath id="" x="615.0" y="422.0" curvePoint="false"/>
+            <type value="inhibitor"/>
+            <inscription>
+                <value></value>
+            </inscription>
+        </arc>
+        <arc id="P1 TO T3" source="N waiting to cross" target="T3">
+            <arcpath id="" x="436.0" y="167.0" curvePoint="false"/>
+            <arcpath id="" x="436.0" y="202.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="S crossing TO T12" source="S crossing" target="T12">
+            <arcpath id="" x="444.0" y="590.0" curvePoint="false"/>
+            <arcpath id="" x="817.0" y="184.0" curvePoint="false"/>
+            <type value="inhibitor"/>
+            <inscription>
+                <value></value>
+            </inscription>
+        </arc>
+        <arc id="P1 TO T1" source="W waiting to cross" target="T1">
+            <arcpath id="" x="208.0" y="419.0" curvePoint="false"/>
+            <arcpath id="" x="241.0" y="420.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="N waiting to cross TO T12" source="N waiting to cross" target="T12">
+            <arcpath id="" x="451.0" y="153.0" curvePoint="false"/>
+            <arcpath id="" x="812.0" y="169.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P3 TO T5" source="N arriving" target="T5">
+            <arcpath id="" x="436.0" y="44.0" curvePoint="false"/>
+            <arcpath id="" x="436.0" y="78.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="P9 TO T8" source="E arriving" target="T8">
+            <arcpath id="" x="763.0" y="422.0" curvePoint="false"/>
+            <arcpath id="" x="732.0" y="422.0" curvePoint="false"/>
+            <type value="normal"/>
+            <inscription>
+                <value>Default,1</value>
+            </inscription>
+        </arc>
+        <arc id="S crossing TO T1" source="S crossing" target="T1">
+            <arcpath id="" x="423.0" y="591.0" curvePoint="false"/>
+            <arcpath id="" x="251.0" y="420.0" curvePoint="false"/>
+            <type value="inhibitor"/>
+            <inscription>
+                <value></value>
+            </inscription>
+        </arc>
+        <arc id="S crossing TO T6" source="S crossing" target="T6">
+            <arcpath id="" x="445.0" y="591.0" curvePoint="false"/>
+            <arcpath id="" x="615.0" y="422.0" curvePoint="false"/>
+            <type value="inhibitor"/>
+            <inscription>
+                <value></value>
+            </inscription>
+        </arc>
+        <arc id="W crossing TO T3" source="W crossing" target="T3">
+            <arcpath id="" x="306.0" y="408.0" curvePoint="false"/>
+            <arcpath id="" x="436.0" y="232.0" curvePoint="false"/>
+            <type value="inhibitor"/>
+            <inscription>
+                <value></value>
+            </inscription>
+        </arc>
+        <arc id="N waiting to cross TO T6" source="N waiting to cross" target="T6">
+            <arcpath id="" x="444.0" y="164.0" curvePoint="false"/>
+            <arcpath id="" x="620.0" y="407.0" curvePoint="false"/>
+            <type value="inhibitor"/>
+            <inscription>
+                <value></value>
+            </inscription>
+        </arc>
+    </net>
+</pnml>
