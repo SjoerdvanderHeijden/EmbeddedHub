@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.19)  11 NOV 2018 15:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.9.19)  11 NOV 2018 15:32
 entering extended mode
 **./Ass3.tex
 (Ass3.tex
@@ -1804,7 +1804,7 @@ File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 File: ../Ass3_1.png Graphic file (type png)
  <use ../Ass3_1.png>
 Package pdftex.def Info: ../Ass3_1.png used on input line 75.
-(pdftex.def)             Requested size: 375.80544pt x 404.72058pt.
+(pdftex.def)             Requested size: 469.75502pt x 505.89326pt.
 
 [1
 
@@ -1820,14 +1820,14 @@ File: ../Ass3_3_environment.png Graphic file (type png)
 
 <use ../Ass3_3_environment.png>
 Package pdftex.def Info: ../Ass3_3_environment.png used on input line 96.
-(pdftex.def)             Requested size: 234.8775pt x 124.15273pt.
+(pdftex.def)             Requested size: 305.33789pt x 161.3949pt.
 
 <../Ass3_3_chart.png, id=65, 1665.97406pt x 551.81157pt>
 File: ../Ass3_3_chart.png Graphic file (type png)
 
 <use ../Ass3_3_chart.png>
 Package pdftex.def Info: ../Ass3_3_chart.png used on input line 103.
-(pdftex.def)             Requested size: 375.80544pt x 124.4722pt.
+(pdftex.def)             Requested size: 469.75502pt x 155.59236pt.
  [3 <../Ass3_2.png>] [4 <../Ass3_3_environment.png> <../Ass3_3_chart.png>] (Ass
 3.bbl) [5]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
@@ -1840,25 +1840,28 @@ Package rerunfilecheck Info: File `Ass3.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
  ) 
 Here is how much of TeX's memory you used:
- 31275 strings out of 493323
- 605763 string characters out of 3139069
+ 31295 strings out of 493323
+ 605963 string characters out of 3139069
  652965 words of memory out of 3000000
- 34268 multiletter control sequences out of 15000+200000
- 546245 words of font info for 86 fonts, out of 3000000 for 9000
+ 34280 multiletter control sequences out of 15000+200000
+ 549378 words of font info for 98 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,7n,77p,10380b,735s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,8n,77p,10380b,735s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10
-.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on Ass3.pdf (5 pages, 383863 bytes).
+nts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb>
+Output written on Ass3.pdf (5 pages, 410869 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
+ 138 PDF objects out of 1000 (max. 8388607)
  18 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
