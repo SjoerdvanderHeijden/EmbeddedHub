@@ -1,0 +1,2 @@
+ Ass 4.4:
+ {even, odd} \supseteq {even}, {odd}; {even} \supseteq {}; {odd} \supseteq {}
