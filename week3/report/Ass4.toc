@@ -1,0 +1,6 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}
+\contentsline {section}{\numberline {2}Assignment 4.1}{1}{section.2}
+\contentsline {section}{\numberline {3}Assignment 4.2}{2}{section.3}
+\contentsline {section}{\numberline {4}Assignment 4.3}{2}{section.4}
+\contentsline {section}{\numberline {5}Assignment 4.4}{3}{section.5}

@@ -1,0 +1,22 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Dingle et~al.(2009)Dingle, Knottenbelt, and Suto]{dingle2009pipe2}
+Nicholas~J Dingle, William~J Knottenbelt, and Tamas Suto.
+\newblock Pipe2: a tool for the performance evaluation of generalised
+  stochastic petri nets.
+\newblock \emph{ACM SIGMETRICS Performance Evaluation Review}, 36\penalty0
+  (4):\penalty0 34--39, 2009.
+
+\bibitem[Bonet et~al.(2007)Bonet, Llad{\'o}, Puijaner, and
+  Knottenbelt]{bonet2007pipe}
+Pere Bonet, Catalina~M Llad{\'o}, Ramon Puijaner, and William~J Knottenbelt.
+\newblock Pipe v2. 5: A petri net tool for performance modelling.
+\newblock In \emph{Proc. 23rd Latin American Conference on Informatics (CLEI
+  2007)}, 2007.
+
+\end{thebibliography}
